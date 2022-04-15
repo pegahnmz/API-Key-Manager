@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: Roboto;
+    margin: 0;
+    
+}
+
+
+main{
+    
+}
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+     
+     margin: 20vh 0;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    width: 30%;
+    
+    padding: 2rem;
+     
+}
+.label{
+    padding-left: 0.3rem;
+}
+.input{
+    background-color: rgba(199, 199, 199, 0.192);
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    border-radius:0.4rem;
+
+}
+.submit{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(219, 76, 24);
+    color: snow;
+    transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.334);
+}
+.main-left{
+    top: -100px;
+     
+}
+.main-left h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.main-table{
+    background-color: rgba(199, 199, 199, 0.266);
+    padding: 1rem ;
+    width: fit-content;
+    border-radius: 0.7rem;
+}
+#table{
+    
+    border-collapse: collapse;
+    display: table;
+     
+}
+ 
+#table td,#table th{
+    
+    padding: 0.7rem 2rem; 
+}
+
+
+thead tr{
+    background-color: rgb(200, 200, 200); 
+    border-radius: 0.5rem;  
+}
+tbody tr:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.145);
+     
+}
+tr{
+    display:table-row;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    margin:0.05rem 0.1rem;
+}
+
+td:first-child , th:first-child{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+td:last-child , th:last-child{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.table-btn{
+    
+    color: snow;
+    border: none;
+    padding:0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease-in-out;
+}
+.table-btn:hover{
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.334);
+    cursor: pointer;
+}
+.delete-btn{
+    background-color: rgb(204, 7, 7);
+}
+.edit-btn{
+    background-color: rgb(0, 100, 230);
+}
+.btn-grp{
+    display: flex;
+    gap: 0.5rem;
+}
+
+/*
+#table tbody{
+
+    
+    display: block;
+    width: fit-content;
+    height: 9rem;
+    overflow-y: auto;
+    
+}
+/*
+tbody::-webkit-scrollbar{
+    width: 0.2rem;
+}
+tbody::-webkit-scrollbar-thumb{
+   background-color: gray;
+}
+tbody::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+*/
