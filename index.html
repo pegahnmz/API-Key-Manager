@@ -10,14 +10,14 @@
 <body>
     <main>
         <div class="container">
-            <form action="" class="form">
+            <form action="" class="form" id="form">
                 <label for="username" class="label">User Name</label>
                 <input type="text" id="username" class="input"> <br>
                 <label for="apikey" class="label">API key</label>
                 <input type="text" id="apikey" class="input"> <br>
                 <label for="apisecret" class="label">API Secret</label>
                 <input type="text" id="apisecret" class="input"> <br>
-                <input type="submit" class="submit">
+                <input type="submit" class="submit" id="submitbtn"></input>
             </form>
             <div class="main-left">
                 <h1>API Key Manager</h1>
@@ -32,15 +32,15 @@
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="tbody">
                             <tr>
                                 <td>4</td>
                                 <td>peahcvnghmhm</td>
                                 <td>jgguj;kol</td>
                                 <td>ughjh******nbjk</td>
                                 <td class="btn-grp">
-                                    <Button class="table-btn delete-btn">Delete</Button>
-                                    <button class="table-btn edit-btn">Edit</button>
+                                    <Button class="table-btn delete-btn" >Delete</Button>
+                                    <button class="table-btn edit-btn" id="editbtn">Edit</button>
                                 </td>
                             </tr>
                             <tr>
