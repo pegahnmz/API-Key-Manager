@@ -3,9 +3,17 @@
     font-family: Roboto;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
     
 }
+html,body{
+    
+    
+  
+  width: 100%;
+ 
 
+}
 
 .container{
     
@@ -54,16 +62,19 @@
 .main-left{
     top: -100px;
     width: fit-content;
+    
 }
 .main-left h1{
     text-align: center;
     margin-bottom: 1rem;
 }
 .main-table{
+    width: 45.7rem;
     background-color: rgba(199, 199, 199, 0.266);
     padding: 1rem ;
-    width: fit-content;
+    
     border-radius: 0.7rem;
+    
 }
 #table{
     
@@ -154,7 +165,13 @@ tbody::-webkit-scrollbar-track{
         flex-direction: column;
         align-items: center;
     }
+    
     .form{
         width: 50%;
+    }
+}
+@media screen and (max-width:750px){
+    .form{
+        width: 90%;
     }
 }
